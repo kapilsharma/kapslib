@@ -1,0 +1,92 @@
+body {
+    background: rgb(15,180,231);
+    background: -moz-linear-gradient(top,  rgba(15,180,231,1) 0%, rgba(169,228,247,1) 64%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(15,180,231,1)), color-stop(64%,rgba(169,228,247,1)));
+    background: -webkit-linear-gradient(top,  rgba(15,180,231,1) 0%,rgba(169,228,247,1) 64%);
+    background: -o-linear-gradient(top,  rgba(15,180,231,1) 0%,rgba(169,228,247,1) 64%);
+    background: -ms-linear-gradient(top,  rgba(15,180,231,1) 0%,rgba(169,228,247,1) 64%);
+    background: linear-gradient(to bottom,  rgba(15,180,231,1) 0%,rgba(169,228,247,1) 64%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0fb4e7', endColorstr='#a9e4f7',GradientType=0 );
+    margin: 0;
+    padding: 0;
+}
+#kapslib-container {
+    width: 1024px;
+    margin: 0 auto;
+    background: #FFF;
+    min-height: 600px;
+    padding: 5px;
+}
+.kapslib-header {
+    margin: 0;
+    padding: 5px;
+    width: 1012px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    text-align: center;
+}
+.kapslib-body {
+    margin: 5px 0 0 0;
+    padding: 0;
+    width: 1022px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(15,180,231,1);
+    position: relative;
+}
+.kapslib-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 190px;
+    background-color: rgba(15,180,231,1);
+    float: left;
+    padding: 5px 0 0 5px;
+}
+ul.kapslib-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.kapslib-menu li {
+    padding: 5px;
+    margin: 0;
+}
+ul.kapslib-menu li:hover {
+    background-color: #CCC;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+}
+ul.kapslib-menu li.selected {
+    background-color: #FFF;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+}
+ul.kapslib-menu li a {
+    text-decoration: none;
+    color: #000;
+}
+ul.kapslib-menu li.selected a {
+    color: rgba(15,180,231,1);
+}
+ul.kapslib-menu li:hover a {
+    color: rgba(15,180,231,1);
+}
+.kapslib-contents {
+    margin: 0 0 0 200px;
+    min-height: 200px;
+}

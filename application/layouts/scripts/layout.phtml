@@ -1,0 +1,27 @@
+<?php echo $this->doctype() ?>
+<HTML>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Zend Framework Quickstart Application</title>
+        <?php echo $this->headLink()->appendStylesheet('/styles/kapslib.css') ?>
+    </head>
+    <body>
+        <div id="kapslib-container">
+            <div class="kapslib-header">
+                Kapslib - Sample app to learn Zend Framework 1.12 internals
+            </div>
+            <div class="kapslib-body">
+                <div class="kapslib-sidebar">
+                    <ul class="kapslib-menu">
+                        <li class="selected"><a href="#">Home</a></li>
+                        <li><a href="#">List books</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+                <div class="kapslib-contents">
+                    <?php echo $this->layout()->content; ?>
+                </div>
+            </div>
+        </div>
+    </body>
+<HTML>
